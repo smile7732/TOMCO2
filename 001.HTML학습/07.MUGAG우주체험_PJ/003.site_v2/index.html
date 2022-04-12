@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUGAGA우주체험관에 오신것을 환영합니다!</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- 미디어쿼리 아래에 넣음! -->
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <!-- 1. 상단영역 -->
+    <div>
+        <header id="top" class="part">
+            <!-- 1-1. 페이지 타이틀 -->
+            <h1 class="tit">MUGAGA 우주 체험관</h1>
+            <!-- 1-2. 전체메뉴(GNB) -->
+            <nav class="gnb">
+                <ul class="glist">
+                    <li>
+                        <a href="#">우주체험</a>
+                        <!-- 서브메뉴 -->
+                        <div class="smenu">
+                            <ol>
+                                <li>
+                                    <a href="#">태양계소개</a>
+                                </li>
+                                <li>
+                                    <a href="#">HD 우주공간</a>
+                                </li>
+                                <li>
+                                    <a href="#">행성별체험관</a>
+                                </li>
+                                <li class="bdt">
+                                    <a href="#">MUGA우주갤러리</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">예약</a>
+                        <!-- 서브메뉴 -->
+                        <div class="smenu">
+                            <ol>
+                                <li>
+                                    <a href="#">VIP & 일반예약</a>
+                                </li>
+                                <li>
+                                    <a href="#">체험일정표</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">우주체험관</a>
+                        <!-- 서브메뉴 -->
+                        <div class="smenu">
+                            <ol>
+                                <li>
+                                    <a href="#">MUGAGA우주체험</a>
+                                </li>
+                                <li>
+                                    <a href="#">VIP특별관</a>
+                                </li>
+                                <li class="bdt">
+                                    <a href="#">MUGAGA회원혜택</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">고객참여&amp;행사</a>
+                        <!-- 서브메뉴 -->
+                        <div class="smenu">
+                            <ol>
+                                <li>
+                                    <a href="#">행사</a>
+                                </li>
+                                <li>
+                                    <a href="#">MUGAGA우주가게</a>
+                                </li>
+                                <li>
+                                    <a href="#">MUGAGA과학잡지</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 영사기박스 -->
+                <!-- aside는 서브내용을 담는 div와 같은요소 -->
+                <aside id="cam">
+                    <!-- 영사기 이미지 -->
+                    <img src="./images/gnb.png" alt="영사기">
+                    <!-- 빔표시박스 -->
+                    <div class="beam"></div>
+                </aside>
+            </nav>
+        </header>
+    </div>
+    <!-- 2. 메인영역 -->
+    <div>
+        <!-- 비율유지클래스 적용 .rbx -->
+        <main id="cont" class="part rbx">
+            <!-- 비율유지 속박스 .rbxIn -->
+            <div class="rbxIn">
+                <!-- 2-1.스크린 박스 -->
+                <div id="screen">
+                    <!-- 유튜브 아이프레임 -->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pUZ2tfr1bsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!--
+                        유튜브 src 값 구성
+                        https://www.youtube.com/embed/동영상ID?옵션
+                        [ 물음표 뒤에 옵션설명 ]
+                        ?
+                        autoplay=1 자동플레이
+                        &
+                        mute=1 소리없앰
+                        &
+                        loop=1 반복재생
+                        &
+                        playlist=동영상ID -> 반복재생할 영상ID
+                        &
+                        playsinline=1 ->  아이폰에서 인라인재생
+                     -->
+                </div>
+                <!-- 2-2. 예고편 선택메뉴 -->
+                <nav class="mlist">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./images/m1.jpg" alt="듄">
+                                <!-- 영화정보 -->
+                                <ol class="movtxt">
+                                    <li>수성</li>
+                                    <li>공전주기 88일</li>
+                                    <li>반지름 2.440km</li>
+                                </ol>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/m2.jpg" alt="유체이탈자">
+                                <!-- 영화정보 -->
+                                <ol class="movtxt">
+                                    <li>금성</li>
+                                    <li>공전주기 224일</li>
+                                    <li>평균온도 737k</li>
+                                </ol>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/m3.jpg" alt="이터널스">
+                                <!-- 영화정보 -->
+                                <ol class="movtxt">
+                                    <li>지구</li>
+                                    <li>공전주기 365.256.41일</li>
+                                    <li>평균온도 7.2도</li>
+                                </ol>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/m4.jpg" alt="연애 빠진 로맨스">
+                                <!-- 영화정보 -->
+                                <ol class="movtxt">
+                                    <li>화성</li>
+                                    <li>공전주기 687일</li>
+                                    <li>반지름 3.389.5km</li>
+                                </ol>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/m5.jpg" alt="프렌치 디스패치">
+                                <!-- 영화정보 -->
+                                <ol class="movtxt">
+                                    <li>목성</li>
+                                    <li>공전주기 12년</li>
+                                    <li>반지름 69.911km</li>
+                                </ol>
+                            </a>
+                        </li>
+                                    <li>
+                            <a href="#">
+                                <img src="./images/m6.jpg" alt="토성">
+                                <!-- 영화정보 -->
+                                <ol class="movtxt">
+                                    <li>토성</li>
+                                    <li>반지름 58.232km</li>
+                                    <li>공전주기 29.4571년</li>
+                                </ol>
+                            </a>
+                        </li>
+                                </ol>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/m7.jpg" alt="천왕성">
+                                <!-- 영화정보 -->
+                                <ol class="movtxt">
+                                    <li>천왕성</li>
+                                    <li>공전주기 약84년</li>
+                                    <li>반지름 25,362km</li>
+                                </ol>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </main>
+    </div>
+    <!-- 3. 하단영역 -->
+    <div>
+        <footer id="info" class="part">
+            <!-- 3-1. 회사정보 -->
+            <address>
+                <img src="./images/blogo.png" alt="하단로고">
+                <span>
+                    (94357)서울특별시 강남구 테헤란로 11길 9, 무가가빌딩 6층(역삼동) <br>
+                    대표이사 : 정애자 사업자등록번호 : 467-11-48540 통신판매업신고번호 : 2022-서울강남-5262 <br>
+                    개인정보보호 책임자 : 정애자대표이메일 : smilemugaga1004@mugaga.or.kr 고객센터 : 1600-2200
+                </span>
+            </address>
+            <!-- 3-2. sns박스 -->
+            <ul class="sns">
+                <li>
+                    <a href="#" title="페이스북 바로가기" target="_blank">
+                        <span class="ir">
+                            페이스북 바로가기
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="트위터 바로가기" target="_blank">
+                        <span class="ir">
+                            트위터 바로가기
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" title="인스타그램 바로가기" target="_blank">
+                        <span class="ir">
+                            인스타그램 바로가기
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+</body>
+
+</html>
